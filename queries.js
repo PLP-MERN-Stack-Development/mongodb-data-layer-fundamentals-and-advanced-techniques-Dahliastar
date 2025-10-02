@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb');
 //Connection URI
-const uri = 'mongodb+srv://Mich:Mongodb1506@cluster0.zbiepvl.mongodb.net/'
+const uri ="mongodb://localhost:27017/"; // Local MongoDB
 
 // Database and collection names
 const dbName = 'plp_bookstore';
